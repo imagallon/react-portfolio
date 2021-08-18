@@ -1,11 +1,11 @@
-import React from "react";
+// import React from "react";
 
-export default function Resume() {
-  return (
-    <div>
-      <a href="../assets/img/Coding Resume 2021v1.1.pdf" download>
-        Resume
-      </a>
-    </div>
-  );
-}
+// export default function Resume() {
+//   return (
+//     <div>
+
+//         Resume
+//       </a>
+//     </div>
+//   );
+// }
