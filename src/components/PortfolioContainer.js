@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavTabs from "./NavTabs";
 import Aboutme from "./pages/Aboutme";
-import Projects from "./pages/Projects";
+import Projects from "./pages/Projects/Projects";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
