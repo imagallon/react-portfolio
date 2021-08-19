@@ -1,10 +1,11 @@
 import React from "react";
+import "./Aboutme.css";
 
 export default function Aboutme() {
   return (
     <div>
       <h1>About Me</h1>
-      <p>
+      <p className="fix">
         I am an aspiring web developer based in North County San Diego. A few of
         my favorite things are rock climbing, creating art, and spending time
         with friends and family. I went to school up in San Jose State

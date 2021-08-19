@@ -1,6 +1,9 @@
-body {
+.container {
   background-color: #444442;
   padding-top: 85px;
+}
+
+.drop {
 }
 
 h1 {
@@ -100,7 +103,7 @@ textarea {
 .input-container {
   width: 650px;
   max-width: 100%;
-  margin: 20px auto 25px auto;
+  margin: 100px auto 25px auto;
   /* justify-content: center; */
 }
 

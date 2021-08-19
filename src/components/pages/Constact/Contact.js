@@ -4,6 +4,9 @@ import "./Contact.css";
 
 const style = {
   float: "right",
+  none: {
+    background: "none",
+  },
 };
 
 export default function Contact() {
@@ -47,59 +50,55 @@ export default function Contact() {
   return (
     <div>
       <form>
-        <div className="container">
-          <div className="row">
-            <h1>contact us</h1>
+        <h1 style={style.none}>contact us</h1>
+
+        <div className="input-container drop">
+          <div className="col-xs-12">
+            <div className="styled-input wide">
+              <input
+                type="text"
+                required
+                value={userName}
+                onChange={(e) => setUserName(e.target.value)}
+              />
+              <label>Name</label>
+            </div>
           </div>
-          <div className="row"></div>
-          <div className="input-container">
-            <div className="col-xs-12">
-              <div className="styled-input wide">
-                <input
-                  type="text"
-                  required
-                  value={userName}
-                  onChange={(e) => setUserName(e.target.value)}
-                />
-                <label>Name</label>
-              </div>
+          <div className="col-xs-12">
+            <div className="styled-input">
+              <input
+                type="text"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <label>Email</label>
             </div>
-            <div className="col-xs-12">
-              <div className="styled-input">
-                <input
-                  type="text"
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-                <label>Email</label>
-              </div>
+          </div>
+          <div className="col-xs-12">
+            <div className="styled-input" style={style}>
+              <input
+                type="text"
+                required
+                value={number}
+                onChange={(e) => setNumber(e.target.value)}
+              />
+              <label>Phone Number</label>
             </div>
-            <div className="col-xs-12">
-              <div className="styled-input" style={style}>
-                <input
-                  type="text"
-                  required
-                  value={number}
-                  onChange={(e) => setNumber(e.target.value)}
-                />
-                <label>Phone Number</label>
-              </div>
+          </div>
+          <div className="col-xs-12">
+            <div className="styled-input wide">
+              <textarea
+                required
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+              ></textarea>
+              <label>Message</label>
             </div>
-            <div className="col-xs-12">
-              <div className="styled-input wide">
-                <textarea
-                  required
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                ></textarea>
-                <label>Message</label>
-              </div>
-            </div>
-            <div className="col-xs-12">
-              <div className="btn-lrg submit-btn" onClick={handleFormSubmit}>
-                Send Message
-              </div>
+          </div>
+          <div className="col-xs-12">
+            <div className="btn-lrg submit-btn" onClick={handleFormSubmit}>
+              Send Message
             </div>
           </div>
         </div>

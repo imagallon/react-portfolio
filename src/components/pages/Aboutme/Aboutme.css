@@ -1,0 +1,8 @@
+.fix {
+  max-width: 80%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 55px;
+  margin-left: 9%;
+}
