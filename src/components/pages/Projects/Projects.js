@@ -26,14 +26,7 @@ const projects = [
     github: "https://github.com/imagallon/betterfitness",
     id: 3,
   },
-  {
-    name: "Fitness Tracker",
-    description:
-      "This is a full stack app using MongoDB and Mongoose. Users can ",
-    url: "https://betterfitnessim.herokuapp.com/",
-    github: "https://github.com/imagallon/betterfitness",
-    id: 4,
-  },
+
   {
     name: "Budget PWA",
     description:
@@ -51,20 +44,12 @@ const projects = [
     id: 6,
   },
   {
-    name: "Budget PWA",
+    name: "Note Taker",
     description:
       "This is a simple, yet powerul full stack app using MySql and Express. Users can make and deletes notes",
     url: "https://notetakeriem.herokuapp.com/",
     github: "https://github.com/imagallon/note-taker",
     id: 7,
-  },
-  {
-    name: "Budget PWA",
-    description:
-      "This is a full stack app using IndexedDB and is a Progressive Web App. Users can download this app and use it offline like a native app",
-    url: "https://budgetpwaim.herokuapp.com/",
-    github: "https://github.com/imagallon/budget-tracker-pwa",
-    id: 8,
   },
 ];
 
@@ -73,15 +58,17 @@ export default function Projects() {
     <div>
       <h1>Projects</h1>
       <div>
-        {projects.map((project) => (
-          <Project
-            name={project.name}
-            description={project.description}
-            key={project.id}
-            url={project.url}
-            github={project.github}
-          />
-        ))}
+        <ul className="card-wrapper">
+          {projects.map((project) => (
+            <Project
+              name={project.name}
+              description={project.description}
+              key={project.id}
+              url={project.url}
+              github={project.github}
+            />
+          ))}
+        </ul>
       </div>
     </div>
   );
