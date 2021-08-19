@@ -10,7 +10,7 @@ export default function Aboutme() {
         <p className="fix">
           <span>
             {" "}
-            <img src={avatar} alt="my avatar" />
+            <img src={avatar} alt="my avatar" className="face" />
           </span>
           <br />
           <br />I am an aspiring web developer based in North County San Diego.
