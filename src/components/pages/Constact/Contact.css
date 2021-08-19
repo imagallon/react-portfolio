@@ -90,10 +90,18 @@ textarea {
   min-height: 15em;
 }
 
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .input-container {
   width: 650px;
   max-width: 100%;
   margin: 20px auto 25px auto;
+  /* justify-content: center; */
 }
 
 .submit-btn {

@@ -1,6 +1,9 @@
 import React from "react";
 import "./Nav.css";
 
+const style = {
+  textDecoration: "none",
+};
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
@@ -41,7 +44,11 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item nav-link">
-        <a href={process.env.PUBLIC_URL + "/codingresume2021v1.1.pdf"} download>
+        <a
+          href={process.env.PUBLIC_URL + "/codingresume2021v1.1.pdf"}
+          download
+          style={style}
+        >
           Resume
         </a>
       </li>
