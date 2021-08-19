@@ -1,5 +1,11 @@
 import React from "react";
 import Project from "./Project";
+import budget from "../../../assets/imgs/budget.png";
+import fantom from "../../../assets/imgs/fantomthumb.png";
+import knl from "../../../assets/imgs/myknlthumb.png";
+import note from "../../../assets/imgs/note.png";
+import tech from "../../../assets/imgs/techblogthumb.png";
+import workout from "../../../assets/imgs/workout.png";
 
 const projects = [
   {
@@ -8,6 +14,7 @@ const projects = [
       "A full stack where users can make and account, add pet info, and make a reservation",
     url: "https://myknl-zap.herokuapp.com/",
     github: "https://github.com/zzangu0215/zzangu-and-the-pals",
+    img: knl,
     id: 1,
   },
   {
@@ -16,6 +23,7 @@ const projects = [
       "This is a front end app using the Youtube and Marvel API to fetch data and display it on the page",
     url: "https://zzangu0215.github.io/fantom/",
     github: "https://github.com/zzangu0215/fantom",
+    img: fantom,
     id: 2,
   },
   {
@@ -24,6 +32,7 @@ const projects = [
       "This is a full stack app using MongoDB and Mongoose. Users can ",
     url: "https://betterfitnessim.herokuapp.com/",
     github: "https://github.com/imagallon/betterfitness",
+    img: workout,
     id: 3,
   },
 
@@ -33,6 +42,7 @@ const projects = [
       "This is a full stack app using IndexedDB and is a Progressive Web App. Users can download this app and use it offline like a native app",
     url: "https://budgetpwaim.herokuapp.com/",
     github: "https://github.com/imagallon/budget-tracker-pwa",
+    img: budget,
     id: 5,
   },
   {
@@ -41,6 +51,7 @@ const projects = [
       "This is a full stack app using MySql and Model-View-Controller* design pattern. Users can make accounts and make blog posts",
     url: "https://blogmasteriem.herokuapp.com/",
     github: "https://github.com/imagallon/tech-blog",
+    img: tech,
     id: 6,
   },
   {
@@ -49,6 +60,7 @@ const projects = [
       "This is a simple, yet powerul full stack app using MySql and Express. Users can make and deletes notes",
     url: "https://notetakeriem.herokuapp.com/",
     github: "https://github.com/imagallon/note-taker",
+    img: note,
     id: 7,
   },
 ];
@@ -66,6 +78,7 @@ export default function Projects() {
               key={project.id}
               url={project.url}
               github={project.github}
+              img={project.img}
             />
           ))}
         </ul>

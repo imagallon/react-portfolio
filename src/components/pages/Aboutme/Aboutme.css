@@ -3,6 +3,12 @@
   text-align: center;
   justify-content: center;
   display: flex;
-  margin: 55px;
+  margin-top: 15%;
   margin-left: 9%;
+  /* background-color: #e1faf1; */
+}
+
+.dib {
+  background-color: #e1faf1;
+  min-height: 100vh;
 }

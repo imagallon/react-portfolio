@@ -48,7 +48,7 @@ export default function Contact() {
     setMessage("");
   };
   return (
-    <div>
+    <div className="bullShit">
       <form>
         <h1 style={style.none}>contact us</h1>
 

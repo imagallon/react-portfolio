@@ -3,7 +3,7 @@ import "./Aboutme.css";
 
 export default function Aboutme() {
   return (
-    <div>
+    <div className="dib">
       <h1>About Me</h1>
       <p className="fix">
         I am an aspiring web developer based in North County San Diego. A few of

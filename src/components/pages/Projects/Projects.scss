@@ -2,7 +2,7 @@
 
 .card {
   --card-gradient: rgba(0, 0, 0, 0.8);
-  --card-gradient: #5e9ad9, #e271ad;
+  // --card-gradient: #5e9ad9, #e271ad;
   // --card-gradient: tomato, orange;
   --card-blend-mode: overlay;
   // --card-blend-mode: multiply;
@@ -73,7 +73,7 @@
 
 .card-wrapper {
   list-style: none;
-  padding: 0;
+  padding: 75px;
   margin: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));

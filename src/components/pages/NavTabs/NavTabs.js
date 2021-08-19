@@ -3,17 +3,25 @@ import "./Nav.css";
 
 const style = {
   textDecoration: "none",
+  name: {
+    marginTop: "10px",
+  },
+  header: {
+    backgroundColor: "white",
+  },
 };
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <header className="header">
-      {/* <h1>Israel Magallon</h1> */}
+    <header className="header" style={style.header}>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label className="menu-icon" htmlFor="menu-btn">
         <span className="navicon"></span>
       </label>
+      <h1 className="navicon" style={style.name}>
+        Israel Magallon
+      </h1>
       <ul className="menu ">
         <li>
           <a

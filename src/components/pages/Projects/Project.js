@@ -21,10 +21,7 @@ export default function Project(props) {
   return (
     <div>
       <li className="card">
-        <img
-          src="https://images.unsplash.com/photo-1611916656173-875e4277bea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400"
-          alt=""
-        />
+        <img src={props.img} alt="" />
         <h3>
           <a href={props.url}>{props.name}</a>
         </h3>
