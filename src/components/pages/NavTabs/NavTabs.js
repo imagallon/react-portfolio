@@ -66,7 +66,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <li>
           <a
             className="aColor"
-            href={process.env.PUBLIC_URL + "/CodingResume2021.pdf"}
+            href={process.env.PUBLIC_URL + "/codingresume2021.pdf"}
             download
             style={style}
           >
