@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.9bf5abfb.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.d9fa9723.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.d9fa9723.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.ba2412b6.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ba2412b6.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.5f767cf3.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.5f767cf3.js.map",
     "static/css/2.818011ed.chunk.css": "/react-portfolio/static/css/2.818011ed.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.818011ed.chunk.css.map": "/react-portfolio/static/css/2.818011ed.chunk.css.map",
     "static/css/main.9bf5abfb.chunk.css.map": "/react-portfolio/static/css/main.9bf5abfb.chunk.css.map",
     "static/js/2.eacead68.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.eacead68.chunk.js.LICENSE.txt",
+    "static/media/Jobbee.9f95d15c.png": "/react-portfolio/static/media/Jobbee.9f95d15c.png",
     "static/media/avatar.261b6ef5.png": "/react-portfolio/static/media/avatar.261b6ef5.png",
     "static/media/budget.c0558831.png": "/react-portfolio/static/media/budget.c0558831.png",
     "static/media/fantomthumb.d58b14f3.png": "/react-portfolio/static/media/fantomthumb.d58b14f3.png",
@@ -24,6 +25,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.eacead68.chunk.js",
     "static/css/main.9bf5abfb.chunk.css",
-    "static/js/main.d9fa9723.chunk.js"
+    "static/js/main.ba2412b6.chunk.js"
   ]
 }
