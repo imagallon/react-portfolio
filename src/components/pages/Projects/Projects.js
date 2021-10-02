@@ -6,8 +6,18 @@ import knl from "../../../assets/imgs/myknlthumb.png";
 import note from "../../../assets/imgs/note.png";
 import tech from "../../../assets/imgs/techblogthumb.png";
 import workout from "../../../assets/imgs/workout.png";
+import Jobbee from "../../../assets/imgs/Jobbee.png";
 
 const projects = [
+  {
+    name: "Jobbee",
+    description:
+      "Full stack app using the MERN stack. Developers and Employers can use this to find talent and work.",
+    url: "https://jobbee-fantom.herokuapp.com/",
+    github: "https://github.com/zzangu0215/jobbee",
+    img: Jobbee,
+    id: 1,
+  },
   {
     name: "MyKnl",
     description:
@@ -15,7 +25,7 @@ const projects = [
     url: "https://myknl-zap.herokuapp.com/",
     github: "https://github.com/zzangu0215/zzangu-and-the-pals",
     img: knl,
-    id: 1,
+    id: 2,
   },
   {
     name: "Fantom",
@@ -24,7 +34,7 @@ const projects = [
     url: "https://zzangu0215.github.io/fantom/",
     github: "https://github.com/zzangu0215/fantom",
     img: fantom,
-    id: 2,
+    id: 3,
   },
   {
     name: "Fitness Tracker",
@@ -33,7 +43,7 @@ const projects = [
     url: "https://betterfitnessim.herokuapp.com/",
     github: "https://github.com/imagallon/betterfitness",
     img: workout,
-    id: 3,
+    id: 4,
   },
 
   {
