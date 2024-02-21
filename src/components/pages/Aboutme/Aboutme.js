@@ -13,7 +13,7 @@ export default function Aboutme() {
             <img src={avatar} alt="my avatar" className="face" />
           </span>
           <br />
-          <br />I am an aspiring web developer based in North County San Diego.
+          <br />I am a web developer based in North County San Diego.
           A few of my favorite things are rock climbing, creating art, and
           spending time with friends and family. I went to school up in San Jose
           State University and graduated with degree in Spanish. I spent some
